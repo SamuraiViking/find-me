@@ -7,11 +7,13 @@ class CafFirstFloor extends Component {
 
     render() {
         return (
-            <TableGrid 
-                rows={6}
-                columns={4}
-                shape="long-rectangle"
-            />
+            <div class="table-grid-container">
+                <TableGrid 
+                    rows={2}
+                    columns={4}
+                    shape="long-rectangle"
+                />
+            </div>
         );
     }
 }

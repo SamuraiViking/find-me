@@ -19,7 +19,7 @@ class TableGrid extends Component {
 
     render() {
         return(
-            <div className="table-container">
+            <div className={`table-container col-${this.props.columns}`}>
                 { this.createTableGrid(this.props.rows, this.props.columns) }
             </div>
         )

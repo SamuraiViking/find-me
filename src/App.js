@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import CafFirstFloor from './CafFirstFloor';
+import Questionnaire from "./Questionnaire"
 
 function App() {
   return (
     <div className="App">
-      <CafFirstFloor />
+      <Questionnaire/>
     </div>
   );
 }
